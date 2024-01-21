@@ -1,0 +1,32 @@
+body {
+    background: hsl(30, 54%, 90%);
+}
+main {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    border-radius: 2em;
+    margin: auto; /* Add margin: auto; to center the element horizontally */
+    margin-top: 7%; /* Add margin-top: 10%; to center the element vertically */
+}
+
+picture {
+    align-self: center;
+    padding: 5%;
+}
+img {
+    margin-top: 0.5em;
+    border-radius: 2em;
+    width: 100%;
+}
+.ml-6 {
+    margin-left: 6%;
+}
+.description {
+    text-align: start;
+}
+h1, h2 {
+    font-family: 'Young Serif', serif;
+}
+ol { padding-left: 2em; }
