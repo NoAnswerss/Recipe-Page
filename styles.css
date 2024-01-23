@@ -25,6 +25,8 @@ table {
   table tr:last-child {
     border: 0;
   }
+
+
 /* Colors */
 
 .bg-rose {
@@ -45,6 +47,12 @@ table {
 .ml-4 {
     margin-left: 1.2em;
 }
+.mr-6 {
+    margin-right: 2em;
+}
+.radius-2 {
+    border-radius: 1em;
+}
 picture {
     align-self: center;
     padding: 5%;
@@ -60,9 +68,11 @@ img {
 }
 ul li {
     font-family: 'Outfit', sans-serif;
+    margin-top: 0.5em;
 }
 ol li {
     font-family: 'Outfit', sans-serif;
+    margin-top: 0.5em;
 }
 ol li::marker {
     color: hsl(14, 45%, 36%);
