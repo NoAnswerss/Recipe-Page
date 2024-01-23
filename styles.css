@@ -8,24 +8,11 @@ main {
     background: white;
     display: flex;
     flex-direction: column;
-    width: 39%;
+    width: 52%;
     border-radius: 2em;
     margin: auto; /* Add margin: auto; to center the element horizontally */
     margin-top: 7%; /* Add margin-top: 10%; to center the element vertically */
 }
-
-table {
-    border-collapse: collapse;
-  }
-  
-  table tr {
-    border-bottom: 1px solid black;
-  }
-  
-  table tr:last-child {
-    border: 0;
-  }
-
 
 /* Colors */
 
@@ -66,19 +53,37 @@ img {
 .font-outfit {
     font-family: 'Outfit', sans-serif;
 }
+
+/* Lists styling */
 ul li {
     font-family: 'Outfit', sans-serif;
     margin-top: 0.5em;
+    padding-left: 1em;
 }
 ol li {
     font-family: 'Outfit', sans-serif;
     margin-top: 0.5em;
+    padding-left: 0.5em;
 }
 ol li::marker {
     color: hsl(14, 45%, 36%);
+    font-weight: 900;
+    margin-right: auto;
 }
+hr {
+    margin-right: 3em;
+}
+ol {
+     padding-left: 2em; 
+    }
+
+/* Lists styling end */ 
+
 .ml-6 {
     margin-left: 6%;
+}
+.pl-6 {
+    padding-left: 1.5em;
 }
 .description {
     text-align: start;
@@ -90,4 +95,3 @@ h1 {
 h1, h2 {
     font-family: 'Young Serif', serif;
 }
-ol { padding-left: 2em; }
