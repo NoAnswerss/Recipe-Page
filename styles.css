@@ -99,5 +99,24 @@ h1, h2 {
 .flex-row {
     display: flex;
     flex-direction: row;
-    margin-left: 5%;
+    justify-content: center;
+    gap: 15em;
 }
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+  }
+
+  td {
+    border-bottom: 1px solid hsl(30, 10%, 34%); /* Adjust the color as needed */
+    padding: 8px;
+  }
+
+  strong {
+    display: block; /* Ensures the <strong> element takes full width */
+  }
+  hr {
+    color:  hsl(30, 10%, 34%);
+    width: 95%;
+  }
