@@ -108,14 +108,23 @@ table {
     width: 95%;
   }
 
+  tr {
+    border-bottom: 1px solid #000; /* Adjust the color as needed */
+    width: 95%;
+  }
+
+  tr:last-child {
+    border-bottom: none; /* Remove border for the last tr (last row) */
+  }
+
   td {
-    border-bottom: 1px solid hsl(30, 10%, 34%); /* Adjust the color as needed */
     padding: 8px;
   }
 
   strong {
     display: block; /* Ensures the <strong> element takes full width */
   }
+  
   hr {
     color:  hsl(30, 10%, 34%);
     width: 95%;
