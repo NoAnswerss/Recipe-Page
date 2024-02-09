@@ -102,6 +102,11 @@ h1, h2 {
     justify-content: center;
     gap: 15em;
 }
+.flex-col {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
 table {
     border-collapse: collapse;
