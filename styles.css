@@ -208,7 +208,9 @@ hr {
         margin-right: 4em;
     }
     .letter-spacing-mobile {
-        letter-spacing: 0.4px;
-        line-height: 1.5em;
+        font-size: medium;
+        letter-spacing: 0.5px;
+        line-height: 1.4em;
+        margin-right: 2.25em;
 }
 }
