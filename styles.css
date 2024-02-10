@@ -1,5 +1,6 @@
 body {
     background: hsl(30, 54%, 90%);
+    height: 100vh;
 }
 
 body p {
