@@ -1,30 +1,38 @@
 body {
     background: hsl(30, 54%, 90%);
 }
+
 body p {
     font-size: 16px;
 }
+
 main {
     background: white;
     display: flex;
     flex-direction: column;
     width: 52%;
+    padding-bottom: 2em;
     border-radius: 2em;
-    margin: auto; /* Add margin: auto; to center the element horizontally */
-    margin-top: 7%; /* Add margin-top: 10%; to center the element vertically */
+    margin: auto;
+    /* Add margin: auto; to center the element horizontally */
+    margin-top: 7%;
+    /* Add margin-top: 10%; to center the element vertically */
 }
 
 /* Colors */
 
 .bg-rose {
-    background-color:hsl(330, 100%, 98%);
+    background-color: hsl(330, 100%, 98%);
 }
+
 .text-berry {
     color: hsl(332, 51%, 32%);
 }
+
 .nutmeg {
     color: hsl(14, 45%, 36%);
 }
+
 .brown {
     color: hsl(30, 10%, 34%);
 }
@@ -34,22 +42,27 @@ main {
 .ml-4 {
     margin-left: 1.2em;
 }
+
 .mr-6 {
     margin-right: 2em;
 }
+
 .radius-2 {
     border-radius: 1em;
 }
+
 picture {
     align-self: center;
     padding: 5%;
     padding-bottom: 0;
 }
+
 img {
     margin-top: 0.5em;
     border-radius: 1em;
     width: 100%;
 }
+
 .font-outfit {
     font-family: 'Outfit', sans-serif;
 }
@@ -60,39 +73,55 @@ ul li {
     margin-top: 0.5em;
     padding-left: 1em;
 }
+
 ol li {
     font-family: 'Outfit', sans-serif;
     margin-top: 0.5em;
     padding-left: 0.5em;
+    padding-bottom: 0.5em;
 }
+
 ol li::marker {
     color: hsl(14, 45%, 36%);
     font-weight: 900;
     margin-right: auto;
 }
+
 hr {
     margin-right: 3em;
 }
-ol {
-     padding-left: 2em; 
-    }
 
-/* Lists styling end */ 
+ol {
+    padding-left: 2em;
+}
+
+/* Lists styling end */
 
 .ml-6 {
     margin-left: 6%;
 }
+
 .pl-6 {
     padding-left: 1.5em;
 }
+
 .description {
     text-align: start;
 }
+
 h1 {
     font-size: 42px;
     font-weight: 500;
 }
-h1, h2 {
+
+.xxlarge {
+    font-size: 29px;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+h1,
+h2 {
     font-family: 'Young Serif', serif;
 }
 
@@ -102,9 +131,11 @@ h1, h2 {
     justify-content: center;
     gap: 15em;
 }
+
 .inline {
     display: inline;
 }
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -114,26 +145,70 @@ h1, h2 {
 table {
     border-collapse: collapse;
     width: 95%;
-  }
+}
 
-  tr {
-    border-bottom: 1px solid #000; /* Adjust the color as needed */
+tr {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    /* Adjust the color as needed */
     width: 95%;
-  }
+}
 
-  tr:last-child {
-    border-bottom: none; /* Remove border for the last tr (last row) */
-  }
+tr:last-child {
+    border-bottom: none;
+    /* Remove border for the last tr (last row) */
+}
 
-  td {
+td {
     padding: 8px;
-  }
+}
 
-  strong {
-    display: block; /* Ensures the <strong> element takes full width */
-  }
-  
-  hr {
-    color:  hsl(30, 10%, 34%);
+strong {
+    display: block;
+    /* Ensures the <strong> element takes full width */
+}
+
+hr {
+    color: hsl(30, 10%, 34%);
     width: 95%;
-  }
+}
+
+/* Mobile display starts here */ 
+
+@media (max-width: 375px) {
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    main {
+        width: 100%;
+        margin-top: 0;
+        border-radius: 0;
+    }
+    picture {
+        width: 100%;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    img {
+        border-radius: 0;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    h1 {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 95%;
+    }
+    .description {
+        margin-right: 2.5em;
+        line-height: 1.5em;
+    }
+    .mr-mobile {
+        margin-right: 4em;
+    }
+    .letter-spacing-mobile {
+        letter-spacing: 0.4px;
+        line-height: 1.5em;
+}
+}
