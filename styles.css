@@ -1,6 +1,7 @@
 body {
     background: hsl(30, 54%, 90%);
     padding-bottom: 6em;
+    margin-bottom: 4em;
 }
 
 body p {
