@@ -1,6 +1,6 @@
 body {
     background: hsl(30, 54%, 90%);
-    height: 100vh;
+    padding-bottom: 6em;
 }
 
 body p {
