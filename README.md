@@ -1,4 +1,4 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - Recipe page (Finished)
 
 ![Design preview for the Recipe page coding challenge](./design/desktop-preview.jpg)
 
